@@ -1,0 +1,35 @@
+# Aivamax robots.txt
+# Last updated: 2026-06-01
+
+# 显式允许主流 AI 爬虫（GEO 优化）
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# 通配允许其余爬虫
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.aivamax.com/sitemap.xml
+
+# 屏蔽不需要的爬虫
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
